@@ -1,0 +1,147 @@
+@charset "UTF-8";
+html {
+    font-size: 10px;  
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;  
+    margin: 0;    
+}
+* {
+    box-sizing: border-box;
+}
+main {
+    width: 100%;
+}
+.container {
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.18) 0%,rgba(0,0,0,0.18) 100%),url(../img/bg-service.jpg);
+    position: relative;
+    background-color: #fff;
+    background-position: 50%;    
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;    
+    text-align: center;
+}
+.container_icon {
+    font-family: FontAwesome!important;
+    font-weight: 900!important;
+    color: #FF8053;
+    font-size: 4.5rem;
+}
+.container_title{
+    font-size: 4.6rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #fff;
+}
+.service_section1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #FDF1EE!important;
+}
+.section1_title {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 80px!important;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+}
+.section1_desc {
+    width: 90%;
+    max-width: 124rem;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+.section1_desc_img {
+    width: 47.25%;
+    margin-right: 5.5%;
+}
+.section1_desc_img img {
+    width: 100%;
+    border-radius: 16px 16px 16px 16px;
+}
+.section1_desc_desc {
+    width: 47.25%;
+    font-size: 1.6rem;    
+}
+.section1_desc_desc_title {
+    font-family: 'Noto Sans JP',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 2.6rem;
+    letter-spacing: 2px;
+    line-height: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 3rem;
+    color: #FF8053;
+}
+.section2 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: #FFFFFF;
+}
+.section2_title_1 {
+    text-align: center;
+    color: #424242;
+    font-family: 'Noto Sans JP',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 3.6rem;
+    letter-spacing: 3px;
+    line-height: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+}
+.section2_title_2{
+    color: #FF8053;
+    text-align: center;
+    font-family: 'Noto Sans JP',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    line-height: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 11rem;
+    letter-spacing: 3px;
+}
+@media (max-width: 980px) {
+    .container {
+        padding-top: 16%;
+        padding-bottom: 16%;
+        margin-top: 65px;
+    }
+    .container_title {
+        font-size: 5.6rem;
+    }
+    .section1_title {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .section1_desc {
+        display: block;
+        text-align: left;
+    }
+    .section1_desc_img {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .section1_desc_desc {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .container {
+        padding-top: 20%;
+        padding-bottom: 20%;
+        margin-top: 65px;
+    }
+    .container_title {
+        font-size: 3.6rem;
+    }
+    .section1_desc_desc_title {
+        text-align: center;
+    }
+}

@@ -1,0 +1,410 @@
+html {
+    font-size: 10px;
+}
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP',Helvetica,Arial,Lucida,sans-serif;
+}
+/* ---------------section1-------------- */
+.section_1 {
+    background-image: linear-gradient(180deg,rgba(66,66,66,0.3) 0%,rgba(66,66,66,0.3) 100%),url(../img/bg-news-scaled.jpeg)!important;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 80px;
+    position: relative;
+    background-color: #fff;
+    background-position: 50%;
+    background-position: center bottom 0px;
+    background-position-x: center;
+    background-position-y: bottom 0px;
+}
+.main_text {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 129px;
+}
+.main_icon {
+    font-family: FontAwesome!important;
+    font-weight: 400!important;
+    color: #FF8053;
+    font-size: 45px;
+    text-align: center;
+}
+.section_1_text {
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding-bottom: 0px!important;
+    margin-bottom: 0px!important;
+    text-align: center;
+}
+.section_1_text h1 {
+    margin: 0!important;
+    color: white;
+    font-size: 46px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+/* ---------------section2-------------- */
+
+.section_2 {
+    position: relative;
+    background-color: #F8F8F8;
+    background-position: 50%;
+    background-size: 100%;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section_2_box {
+    padding: 50px!important;
+    max-width: 840px;
+    background-color: #fff;
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden;
+    margin: auto;
+}
+.section_2_text {
+    border-bottom: 1px solid #FF8053;
+    margin-bottom: 60px;
+}
+.section_2_text h2 {
+    font-size: 22px!important;
+    letter-spacing: 1px!important;
+    padding-bottom: 10px;
+    margin: 0;
+}
+h2 a {
+    text-decoration: none;
+    font-family: 'Noto Sans JP',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    color: #424242!important;
+    transition: color 300ms ease 0ms;
+}
+.post_meta {
+    font-family: 'Noto Sans JP',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FF8053!important;
+    margin: 0 0 6px!important;
+}
+.section_2_content {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    color: #424242;
+    font-weight: 500;
+}
+.section_2_content p {
+    margin: 0 0 20px!important;
+}
+.alignleft {
+    float: left;
+}
+.alignleft a {
+    font-size: 12px;
+    color: #FF8053!important;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 980px) {
+    .section_1 {
+        background-size: cover;
+        padding-top:16%;
+        padding-bottom: 16%;
+        margin-top: 65px;
+        position: relative;
+        background-color: #fff;
+        background-position: 50%;
+    }
+    .main_icon {
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .section_1_text h1 {
+        font-size: 56px
+    }
+
+    .section_2 {
+        padding-top: 100px;
+        padding-bottom: 100px
+    }
+
+    .section_2_box {
+        padding: 50px!important;
+        margin: 0 34px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section_1 {
+        padding-top:20%;
+        padding-bottom: 20%;
+        margin-top: 65px
+    }
+    .main_icon {
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .section_1_text h1 {
+        font-size: 36px
+    }
+
+    .section_2 {
+        padding-top: 80px;
+        padding-bottom: 80px
+    }
+    .section_2_box {
+     padding: 30px!important;
+    }
+}
+
+/* ----------------------------------- header & footer -------------------------------- */
+a {
+    text-decoration: none;
+}
+
+.KC_logo_bar {
+    max-height: 80px;
+    position: fixed !important;
+    top: 0px;
+    bottom: auto;
+    left: 0px;
+    right: auto;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.KC_logo {
+    width: 240px;
+    height: 65px;
+}
+
+.KC_contact {
+    width: 562px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.KC_phone_icon {
+    width: 17px;
+    margin-left: 15px;
+}
+
+.KC_phone_number {
+    color: #ff8053;
+    font-family: 'Noto Sans JP', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.KC_et_pb_button {
+    padding-top: 8px !important;
+    padding-right: 44px !important;
+    padding-bottom: 8px !important;
+    padding-left: 44px !important;
+    color: #FFFFFF !important;
+    border-width: 0px !important;
+    border-radius: 43px;
+    font-size: 15px;
+    font-family: 'Noto Sans JP', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 700 !important;
+    background-color: #FF8053;
+}
+
+.KC_menu_icon {
+    width: 50px;
+    font-family: 'Noto Sans JP', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+    display: none;
+}
+
+.mobile_menu_bar {
+    display: none;
+}
+
+.KC_menu_group {
+    background-color: #f8f8f8;
+    color: #666;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    box-shadow: #e0e0e0 0px 10px 30px;
+    font-size: 16px;
+    background-color: #F8F8F8;
+    height: 40px;
+    box-shadow: 0px 12px 18px -6px rgba(127,127,127,0.11);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: -15px;
+}
+
+.KC_menu {
+
+    padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    font-family: 'Noto Sans JP', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 700 !important;
+    margin-top: 0;
+}
+
+.KC_mobile_menu a {
+    font-family: 'Noto Sans JP', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #424242 !important;
+}
+
+.KC_mobile_menu li {
+    margin-top: 25px;
+    margin-left: 20px;
+    list-style: none;
+    border-bottom:1px solid rgba(0,0,0,.03);
+}
+
+.KC_mobile_menu {
+    position: absolute;
+    top: 80px;
+    padding: 50px;
+    background: #fff;
+    width: 100%;
+    opacity: 1;
+    z-index: 9999;
+    border-top: 3px solid #ff8053;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    position: fixed;
+}
+
+.KC_mobile_menu_group {
+    display: none;
+}
+
+footer {
+    background-color: #3a3a3a !important;
+    padding: 54px 0px;
+}
+
+.section1 {
+    font-family: 'Noto Sans JP', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Noto Sans JP', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+footer .menu {
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 27px 0 27px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:980px) {
+
+    .KC_phone_icon {
+        display: none;
+    }
+
+    .KC_phone_number {
+        display: none;
+    }
+
+    .KC_menu_group {
+        display: none;
+    }
+    .KC_logo_bar{
+        height: 80px;
+    }
+    .KC_logo {
+        width: 150px;
+        height: 45px;
+    }
+    .KC_contact {
+        width: 250px;
+    }
+
+    .mobile_menu_bar {
+        display: block;
+    }
+
+    .KC_menu_icon {
+        display: block;
+    }
+    footer .menu {
+        width: 1080px;
+        display: block;
+        list-style: none;
+        padding-left: 0;
+
+    }
+
+    .menu li {
+        line-height: 40px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:980px) {
+    .KC_mobile_menu_group {
+        display: none;
+
+    }
+}
+@media screen and (max-width:767px) {
+    .KC_logo {
+        width: 150px;
+    }
+    .KC_et_pb_button {
+        width: 137px;
+        padding-left: 24px!important;
+        padding-right: 24px!important;
+        font-size: 14px;
+    }
+}
